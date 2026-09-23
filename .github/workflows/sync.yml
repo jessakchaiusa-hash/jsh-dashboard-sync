@@ -1,0 +1,42 @@
+name: JSH Dashboard Sync
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  workflow_dispatch: {}
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch queue status from VPS
+        env:
+          SSH_KEY: ${{ secrets.JSH_VPS_SYNC_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_KEY" > ~/.ssh/jsh_key
+          chmod 600 ~/.ssh/jsh_key
+          ssh -o StrictHostKeyChecking=accept-new -o ConnectTimeout=15 -i ~/.ssh/jsh_key root@76.13.187.131 > raw_status.txt
+      - name: Build status.json
+        run: |
+          python3 - <<'PY'
+          import json, datetime
+          rows = []
+          with open('raw_status.txt', encoding='utf-8') as f:
+              for line in f:
+                  parts = [p.strip() for p in line.split('|')]
+                  if len(parts) < 5:
+                      continue
+                  rows.append({"id": parts[0], "status": parts[1], "title": parts[2], "publishAt": parts[3], "channels": parts[4]})
+          json.dump({"posts": rows, "syncedAt": datetime.datetime.utcnow().isoformat() + "Z"},
+                     open('status.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+          PY
+      - name: Commit status.json
+        run: |
+          git config user.name "jsh-sync-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add status.json
+          git diff --cached --quiet || git commit -m "sync: update JSH queue status"
+          git push
