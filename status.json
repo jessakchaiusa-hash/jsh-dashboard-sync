@@ -2,102 +2,102 @@
  "posts": [
   {
    "id": "L003-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "ที่ดิน 218 ตรว ตำบลละหาร อำเภอบางบัวทอง",
    "publishAt": "2026-10-06T03:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "H088-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "ทาวน์โฮม หมู่บ้านพฤกษาวิลล์ 99",
    "publishAt": "2026-10-06T08:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "HO01-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "ตึก 3 ชั้น ไร่ขิง 26",
    "publishAt": "2026-10-07T03:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "HO02-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "โฮมออฟฟิศ Warehouse ไชน่าทาวน์ ศาลายา",
    "publishAt": "2026-10-07T08:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "L006-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "ที่ดินบางใหญ่ ซอยคลองถนน",
    "publishAt": "2026-10-08T03:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "H091-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "บ้านทาว์นโฮม หมู่บ้านไลโอ นอฟ วงแหวน - ปิ่นเกล้า (พระนอน)",
    "publishAt": "2026-10-08T08:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "H092-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "หมู่บ้านศุภาลัย เบลล่า พระราม 2-พันท้ายนรสิงห์",
    "publishAt": "2026-10-09T03:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "H093-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "อินดี้ บางใหญ่ 2",
    "publishAt": "2026-10-09T08:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "L007-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "ที่ดินสาย 5",
    "publishAt": "2026-10-10T03:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "H095-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "หมู่บ้านอัมรินทร์3ผัง4 สายไหม15",
    "publishAt": "2026-10-10T08:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "H096-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "หมู่บ้านพูนสินธานี1",
    "publishAt": "2026-10-11T03:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "H097-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "หมู่บ้าน เคซี 4 รีโนเวทใหม่",
    "publishAt": "2026-10-11T08:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "H101-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "หมู่บ้านเคซี8 เคซีรามอินทรา 8",
    "publishAt": "2026-10-12T03:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "H105-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "หมู่บ้านอมรทรัพย์ อยู่วิทยา16",
    "publishAt": "2026-10-12T08:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   }
  ],
- "syncedAt": "2026-10-10T15:00:01.916058Z"
+ "syncedAt": "2026-10-10T16:00:01.114655Z"
 }
