@@ -2,102 +2,102 @@
  "posts": [
   {
    "id": "H106-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "หมู่บ้านกิตติชัย7",
    "publishAt": "2026-10-13T03:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "H110-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "หมู่บ้านพงษ์ศิริชัย4",
    "publishAt": "2026-10-13T08:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "H127-S",
-   "status": "awaiting",
+   "status": "revise",
    "title": "พงษ์ศิริชัย 4",
    "publishAt": "2026-10-14T03:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "H140-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "หมู่บ้านกู๊ดแลนด์ กระทุ่มแบน",
    "publishAt": "2026-10-14T08:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "H139-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "หมู่บ้านพูนสินธานี3 เคหะร่มเกล้า64",
    "publishAt": "2026-10-15T03:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "H138-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "พฤกษาวิลล์ 77 พุทธมณฑลสาย 4",
    "publishAt": "2026-10-15T08:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "H137-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "ทาวน์โฮม โครงการ บ้านธนารมย์",
    "publishAt": "2026-10-16T03:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "C060-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "เดอะ คีย์ อุดมสุข (The Key Udomsuk)",
    "publishAt": "2026-10-16T08:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "H145-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "พฤกษาทาวน์ เซเรนิตี้ เพชรเกษม 81 หนองแขม",
    "publishAt": "2026-10-17T03:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "H146-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "หมู่บ้านอยู่เจริญ ลาดพร้าว 101 แยก 17",
    "publishAt": "2026-10-17T08:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "H149-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "หมู่บ้านอิมเมจ เพลส (พุทธมณฑลสาย 4)",
    "publishAt": "2026-10-18T03:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "H150-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "บ้านเดี่ยวหลังมุม โซนนวมินทร์-ประเสริฐมนูกิจ-นวลจันทร์-บางกะปิ-ลาดพร้าว",
    "publishAt": "2026-10-18T08:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "H152-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "หมู่บ้านดารารัศมี สาย 4",
    "publishAt": "2026-10-19T03:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   },
   {
    "id": "H155-S",
-   "status": "awaiting",
+   "status": "scheduled",
    "title": "หมู่บ้านพงษ์ศิริชัย 4 ซอยเพชรเกษม 81",
    "publishAt": "2026-10-19T08:00:00.000Z",
    "channels": "jsh_fb,jsh_ig"
   }
  ],
- "syncedAt": "2026-10-12T02:00:01.873989Z"
+ "syncedAt": "2026-10-12T03:00:01.249462Z"
 }
